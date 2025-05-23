@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="tntmod"
+version="${mod_version}" #This will be replaced by Gradle
+displayName="TNT Command Mod"
+authors="YourName"
+description="A simple mod that adds a /tnt command to summon TNT."
+[[dependencies.tntmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tntmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
